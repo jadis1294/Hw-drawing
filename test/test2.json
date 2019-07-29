@@ -1,0 +1,21 @@
+{
+    "nodes":
+    [
+        {"id":0,"label":"n0","childrens":[1,2]},
+        {"id":1,"label":"n1","childrens":[3]},
+        {"id":2,"label":"n2","childrens":[3]},
+        {"id":3,"label":"n3","childrens":[4]},
+        {"id":4,"label":"n4","childrens":[5]},
+        {"id":5,"label":"n5","childrens":[6]},
+        {"id":6,"label":"n6","childrens":[7]},
+        {"id":7,"label":"n7","childrens":[8]},
+        {"id":8,"label":"n8","childrens":[9,10]},
+        {"id":9,"label":"n9","childrens":[]},
+        {"id":10,"label":"n10","childrens":[11,12]},
+        {"id":11,"label":"n11","childrens":[12]},
+        {"id":12,"label":"n12","childrens":[13,14]},
+        {"id":13,"label":"n13","childrens":[]},
+        {"id":14,"label":"n14","childrens":[15]},
+        {"id":15,"label":"n15","childrens":[]}
+    ]
+}

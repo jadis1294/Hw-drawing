@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+            <meta charset="UTF-8">
+            <title>HW-Drawing </title>
+      <!-- Load D3 from site -->
+<script src="https://cdn.rawgit.com/eligrey/canvas-toBlob.js/f1a01896135ab378aa5c0118eadd81da55e698d8/canvas-toBlob.js"></script>
+<script src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js"></script>
+<script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="treeStyle.css" /> 
+   </head>
+
+<body>
+      <div id="titolo">
+            <table>
+                  <tr>
+                     <td><input type="file" id="files" name="file" accept=".json"/></td>
+                     <td><h1 id="title">HW-drawing ( by Luca De Silvestris & Luca Polidori )<h1></td>
+                  </tr>
+            </table>
+      </div>
+
+      <div id="container">
+            <div id="buttonsLeft">
+                  <table align="left">
+                        <tr><td><input class="button" type="button" onclick="drawJsonButton()" value="Draw A Json" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="saveAsJsonButton()" value="Save as Json" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="saveTree()" value="Save as PNG" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="deleteTreeButton()" value="Delete Tree" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="editModeButton()" value="Edit Mode" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="zoomTreeButton()" value="Navigate" /></td></tr>
+                        <tr><td><input class="button" type="button" onclick="invertAllButton()" value="Invert All" /></td></tr>
+                  </table>
+            </div>
+               
+            <div id="svg">
+                              <script type="text/javascript"  src="treeStructure.js"></script>
+                              <script type="text/javascript"  src="navigate.js"></script>
+                              <script type="text/javascript"  src="redrawTree.js"></script>
+                              <script type="text/javascript"  src="nodesEdgesFunction.js"></script>
+                              <script type="text/javascript"  src="saveLoadTree.js"></script>
+                              <script type="text/javascript"  src="buttonsFunctions.js"></script>
+                              <script type="text/javascript"  src="initialize.js"></script>
+            </div>
+      </div>
+
+</body>
+
+</html>

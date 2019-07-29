@@ -1,0 +1,12 @@
+{
+    "nodes":
+    [
+        {"id":0,"label":"n0","childrens":[1,2],"r":12,"key":0,"x":80,"y":80,"expandedRight":true,"expandedLeft":true},
+        {"id":1,"label":"n1","childrens":[3,4],"r":12,"key":1,"x":230,"y":80,"expandedRight":true,"expandedLeft":true},
+        {"id":2,"label":"n2","childrens":[],"r":12,"key":2,"x":80,"y":130},
+        {"id":3,"label":"n3","childrens":[5],"r":12,"key":3,"x":280,"y":80,"expandedRight":true},
+        {"id":4,"label":"n4","childrens":[],"expandedRight":false,"expandedLeft":false,"x":230,"y":230,"key":4},
+        {"id":5,"label":"n5","childrens":[6],"expandedRight":false,"expandedLeft":true,"x":430,"y":80,"key":5},
+        {"id":6,"label":"n6","childrens":[7,8],"expandedRight":true,"expandedLeft":true,"x":430,"y":230,"key":6},
+        {"id":7,"label":"n7","childrens":[],"expandedRight":false,"expandedLeft":false,"x":480,"y":230,"key":7},
+        {"id":8,"label":"n8","childrens":[],"expandedRight":false,"expandedLeft":false,"x":430,"y":280,"key":8}]}

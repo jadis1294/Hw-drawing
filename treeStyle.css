@@ -1,0 +1,99 @@
+   #title{
+      color: rgb(248, 121, 121);
+        letter-spacing: 2.5px;
+          word-spacing: 10px;
+              font-family: "Times New Roman", Times, serif;
+        font-size: 35px;
+        text-align: center;
+   }
+
+   #text{
+    color: rgb(248, 121, 121);
+    letter-spacing: 1.5px;
+      word-spacing: 5px;
+      font-family: "Times New Roman", Times, serif;
+   }
+
+   #container{
+     box-align: start;
+     margin-inline-start: 0px;
+     border: 2px solid rgb(197, 51, 51);
+   }
+    body{
+      background-color:#3f3f3f;
+      margin: 0 auto;
+
+    }
+      #edges{
+      stroke:grey;
+      stroke-width:3px;
+      }
+      #nodes{
+      stroke:#3f3f3f;  
+      stroke-width:3px;
+      fill: grey;
+
+      }
+      #tree {
+      background-color:rgb(209, 209, 194);
+  border: 2px solid rgb(197, 51, 51); 
+float: center;
+align-content: center;
+}
+
+#files{
+  background-color: #555555; /* Green */
+  color: white;
+  padding: 20px 2px 20px;
+  text-decoration: none;
+  font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 1px solid rgb(197, 51, 51);
+    font-family: "Times New Roman", Times, serif;
+}
+#files:hover {
+  background-color: rgb(197, 51, 51); /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.button{
+  background-color: #555555; /* Green */
+  color: white;
+  padding: 20px 20px 20px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 1px solid  rgb(197, 51, 51);
+  font-family: "Times New Roman", Times, serif;
+}
+.button:hover {
+  background-color: rgb(197, 51, 51); /* Green */
+  color: white;
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    letter-spacing: 0px;
+}
+
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 1s
+}
+.button:focus{
+    background-color: rgb(197, 51, 51);
+    font-family: "Times New Roman", Times, serif;
+        letter-spacing: 0px;
+          font-size: 14px;
+  }
+
+.svg{
+  float: center;
+}

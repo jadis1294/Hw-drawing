@@ -1,0 +1,10 @@
+{
+    "nodes":
+    [
+    {"id":0,"label":"n0","childrens": [1,2]},
+    {"id":1,"label":"n1","childrens": [3]},
+    {"id":2,"label":"n2","childrens": []},
+    {"id":3,"label":"n3","childrens": []}
+    ]
+
+}
